@@ -1,11 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import mainReducer from "@/features/main/mainSlice";
-import bannerReducer from "@/features/banner/bannerSlice";
+import scoreReducer from "./../features/banner/bannerSlice";
 
 export const store = configureStore({
     reducer: {
-        main: mainReducer,
-        banner: bannerReducer,
+        score: scoreReducer,
     },
 });
 
