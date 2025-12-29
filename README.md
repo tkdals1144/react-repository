@@ -13,3 +13,10 @@
 - 작성된 로직을 export하여 store.ts가 사용
 - tsx 컴포넌트 조각에서는 useDispatch()를 이용해 features 내부의 slice에 접근하여 store.ts로 경유
 - 실제 값은 useSelector를 이용하여 state : RootState로 타입을 정하고 실제 값인 state.score.score로 접근
+
+-------------------------------------
+## 2025-12-29
+- useDispatch와 useAppDispatch의 차이 공부 (useDispatch -> 원본 Hook (타입 정보 없음 / 약함), useAppDispatch -> 우리가 만든 타입이 박힌 Hook)
+- 단위 컴포넌트 내에서 라우터 없는 내부 뷰 전환 공부
+- 내부 뷰 전환을 위한 state를 지역적으로 선언하고 union type으로 관리
+- 내부 뷰 전환을 switch 방식으로 개선하여 가독성과 확장성 향상
