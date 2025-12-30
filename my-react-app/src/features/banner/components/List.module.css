@@ -1,3 +1,52 @@
+.table th,
+.table td,
 .table {
     border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 10px 20px;
+}
+
+.table_wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    margin-top: 50px;
+}
+
+.btn_wrap {
+    margin-top: 15px;
+}
+
+.btn {
+    padding: 3px 50px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    background-color: red;
+    color: white;
+    border-color: yellow;
+}
+
+.btn2 {
+    cursor: pointer;
+}
+
+.input {
+    padding: 3px 10px;
+    margin: 5px;
+}
+
+.btn_wrap_wrap {
+    display: flex;
+    justify-content: center;
 }

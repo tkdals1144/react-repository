@@ -24,6 +24,8 @@ const Banner = () => {
             );
         case "list":
             return <List />;
+        case "Img":
+            return <List />;
     }
 };
 
