@@ -29,3 +29,10 @@
 - 커스텀 훅은 설정만을 넘겨받고 인자는 받지 않음 (내부 로직에 인자를 설정)
 - 로직은 hook 내의 setState 함수를 활용하여 연산을 진행
 - JWT + Authorization Header 보안 관련 공부
+
+-------------------------------------
+## 2026-1-1
+- redux에 더 익숙해지기 위해 header 컴포넌트에 slice를 추가하여 login, signup 모달창 구현 연습
+- type.ts에 상태 구조를 정의하는 interface를 가장 먼저 설계
+- headerSlice에서 const initialState를 type.ts의 interface 토대로 구현
+- headerSlice를 store.ts에 등록하여 Header 컴포넌트에서 상태를 구독 가능하도록 설정
