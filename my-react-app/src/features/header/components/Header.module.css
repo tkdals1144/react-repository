@@ -1,0 +1,7 @@
+.header_box {
+    display: flex;
+    justify-content: space-between;
+    background-color: grey;
+    padding: 6px 40px;
+    color: white;
+}
